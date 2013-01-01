@@ -1,0 +1,85 @@
+.menu-burger-tilby {
+	background: #fff;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: 1000000;
+	top: 0;
+	left: 0;
+	overflow: auto;
+	display: none;
+}
+.menu-burger-tilby ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.menu-burger-tilby ul li {
+	width: 100%;
+	display: block;
+}
+.menu-burger-tilby ul li a img {
+	width: 55px !important;
+	height: 55px !important;
+	display: inline-block;
+	margin: 0 10px 0 0;
+	float: left;
+}
+.menu-burger-tilby ul li a img.chevron {
+	width: 18px !important;
+	height: 18px !important;
+	position: absolute;
+	top: 44px;
+	right: 20px;
+}
+.menu-burger-tilby ul li a {
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+	padding: 25px 15px;
+	vertical-align: middle;
+	overflow: auto;
+	display: block;
+	position: relative;
+}
+.menu-burger-tilby ul li a span {
+	display: block;
+	margin: 12px 0 0 0;
+}
+
+.menu-burger-open {
+	background: #fff;
+	border: #eee solid 1px;
+	box-shadow: 0 2px 6px 0 rgba(0,0,0,.12), inset 0 -1px 0 0 #dadce0;
+	border-radius: 100%;
+	padding: 20px;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 80px;
+	z-index: 9;
+}
+.menu-burger-open span {
+	width: 25px;
+	height: 3px;
+	background: #596778;
+	display: block;
+	position: relative;
+	margin: 5px 0 0 0;
+}
+.menu-close-tilby {
+	color: #fff;
+	position: fixed;
+	top: 10px;
+	right: 15px;
+	background: rgba(0, 0, 0, .4);
+	padding: 6px !important;
+	font-family: sans-serif;
+	z-index: 9;
+	border-radius: 50%;
+	color: #fff !important;
+	font-size: 14px;
+	line-height: 1em;
+}

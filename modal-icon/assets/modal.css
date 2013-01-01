@@ -1,0 +1,33 @@
+.icon-modal-box {
+	position: fixed;
+	bottom: 8px;
+	left: 8px;
+	z-index: 1;
+	text-align: center;
+}
+.icon-modal-box a.closebox {
+	font-family: 'Noto Sans', sans-serif;
+	color: #777;
+	text-decoration: none !important;
+	float: right;
+	margin: -30px 0 0 -10px;
+	font-weight: bold;
+}
+.icon-modal-box a.closebox:hover {
+	color: #000;
+	text-decoration: none;
+}
+.icon-modal-box img {
+	width: 44px;
+	height: 44px;
+	margin: 0;
+}
+.icon-modal-box a.icontext {
+	font-family: 'Noto Sans', sans-serif;
+	border-radius: 4px;
+	padding: 5px;
+	display: block;
+	font-size: 12px;
+	text-decoration: none !important;
+	margin: -6px 0 0 0;
+}

@@ -1,0 +1,4 @@
+<style>
+#animate-logo{position:relative;margin:0 auto;animation-name:logo;animation-duration:5s;animation-fill-mode:forwards}#animate-logo img{width:330px;height:310px}.blank-tilby{z-index:1000000;background:#fff;position:fixed;top:0;left:0;width:100%;height:100%}.modal-box-tilby{animation-name:modal;animation-duration:1s;animation-fill-mode:forwards;display:flex;justify-content:center;align-items:center;background:#000;position:relative;top:0;left:0;width:100%;height:100%;margin-left:-50%}@keyframes modal{from{margin-left:-50%}to{margin-left:0}}@keyframes logo{from{display:none;transition:opacity 1s ease-out;opacity:0;margin-top:800px}to{opacity:1;display:block;margin-top:0}}@media only screen and (max-width:768px){#animate-logo img{width:165px;height:155px}}
+</style>
+<div class="blank-tilby"><div class="modal-box-tilby"><div id="animate-logo"><img src="<?php echo plugin_dir_url( dirname(__FILE__) ).'assets/300x300.png'; ?>" alt=""></div></div></div>
